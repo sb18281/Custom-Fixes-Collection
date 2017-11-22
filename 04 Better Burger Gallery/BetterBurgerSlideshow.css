@@ -1,0 +1,309 @@
+/* Created By Simon Barnes and Dylan Rogan from Made & Bound
+  For Better Burger New Zealand
+  Last Updated: 20/10/2016
+  All code reuse must recognise Made & Bound as the original creators
+*/
+  .collection-type-index .content-inner.has-content {
+    padding-top: 0 !important;
+  }
+  body.fixed-header #header {
+    position:relative !important;
+  }
+  [data-content-field="main-content"] {
+    margin-top: 0 !important;
+  }
+
+  [data-url-id="about-us"] .title-desc-wrapper{
+  	display: none;
+  }
+  [data-url-id="menu"] .title-desc-wrapper{
+  	display: none;
+  }
+  [data-url-id="menu"] .sqs-gallery-design-stacked {
+    max-height:600px;
+    height: 600px;
+  }
+
+  [data-url-id="about-us"] .sqs-layout .sqs-row:last-of-type {
+    margin: 0;
+  }
+
+  /* Updated Code */
+  [data-url-id="about-us"] [data-block-type="8"] .thumb-image{
+  	left: 50% !important;
+    transform: translateX(-25%) !important;
+  }
+  [data-url-id="about-us"]  .sqs-gallery .sqs-gallery-design-stacked{
+
+    background-color: #f6f7fc;
+  }
+  [data-url-id="about-us"] .sqs-gallery-container{
+
+    background-color: rgba(244, 245, 250, 0.78);
+  }
+
+
+
+  [data-url-id="about-us"] .content-inner.has-content {
+  	padding-left: 0  !important;
+    width: 100%;
+    max-width: 1920px;
+  }
+  [data-url-id="menu"] .content-inner.has-content {
+  	padding-left: 0  !important;
+    width: 100%;
+    max-width: 3000px;
+  }
+  [data-url-id="about-us"]  .meta{
+  	background-color: transparent !important;
+    left: 0 !important;
+    top: 50% !important;
+    left: 25% !important;
+    transform: translate(-25%, -50%) !important;
+  }
+  [data-url-id="menu"]  .meta{
+    margin: 0 !important;
+  	background-color: transparent !important;
+    left: 25% !important;
+    transform: translate(-25%, 0) !important;
+  }
+
+  [data-url-id="about-us"]  .content .content-inner{
+    padding-top: 0 !important;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-title{
+    color: #E53C2E;
+    display: inline-block;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 2.2em;
+    font-weight: 700;
+    padding-bottom: 0;
+    padding: 15px 20px;
+  }
+  [data-url-id="menu"]  .meta .meta-inside .meta-title{
+    background-color: #E53C2E;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description{
+    color: #E53C2E;
+	  font-size: 1em;
+    padding-top: 0;
+    padding: 15px 20px;
+    display: block;
+    line-height: 1.1em;
+    font-family: "proxima-nova";
+    font-weight: 300;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description p{
+    color: #E53C2E !important;
+    font-size: 1em !important;
+  }
+
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description p span{
+    color: #E53C2E !important;
+    font-size: 1em !important;
+  }
+
+  [data-url-id="menu"]  .meta .meta-inside .meta-description{
+    width:80%;
+    background-color: #E53C2E;
+    color: #FFFFFF;
+	  font-size: 1em;
+    padding-top: 5%;
+    padding: 15px 20px;
+    display: inline-block;
+    line-height: 1.1em;
+    font-family: "proxima-nova";
+    font-weight: 300;
+  }
+
+
+@media(max-width:768px){
+  [data-url-id="menu"]  .meta .meta-inside .meta-title{
+    font-size: 1.4em;
+    padding: 8px 10px;
+  }
+  [data-url-id="menu"]  .meta .meta-inside .meta-description{
+    width: 80%;
+    padding: 8px 10px;
+    font-size: 0.7em;
+  }
+  [data-url-id="menu"]  .meta .meta-inside .meta-description p {
+    font-size: 0.7em;
+  }
+  [data-url-id="menu"]  .meta .meta-inside .meta-description span {
+    font-size: 0.7em;
+  }
+}
+
+
+@media(max-width: 660px){
+  [data-url-id="menu"]  .meta .meta-inside .meta-title{
+    font-size: 1.2em;
+  }
+
+  [data-url-id="about-us"]  .meta .meta-inside .meta-title{
+    color: #E53C2E;
+    display: inline-block;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 1em;
+    font-size: 2.2em;
+    font-weight: 700;
+
+  }
+
+  [data-url-id="about-us"]  .sqs-gallery-block-slideshow .meta-inside{
+    padding: 0;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description{
+  color: #E53C2E;
+	font-size: 1em;
+    padding-top: 0;
+    display: block;
+    padding: 0;
+    line-height: 1.1em;
+    font-family: "proxima-nova";
+    font-weight: 300;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description p{
+    color: #E53C2E !important;
+    font-size: 1em !important;
+  }
+
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description p span{
+    color: #E53C2E !important;
+    font-size: 1em !important;
+  }
+  [data-url-id="about-us"]   .meta {
+    max-width: 50% !important;
+    left: 15% !important;
+  }
+
+}
+
+@media(max-width: 500px){
+  [data-url-id="menu"]  .meta{
+    left: 15% !important;
+  }
+  [data-url-id="menu"]  .meta .meta-inside .meta-title{
+    font-size: 0.9em;
+    padding: 8px 10px;
+  }
+  [data-url-id="about-us"] [data-block-type="8"] .thumb-image{
+  	left: 10% !important;
+    transform: translateX(0) !important;
+  }
+  [data-url-id="about-us"] [data-block-type="8"] .sqs-gallery {
+    height: 300px !important;
+
+  }
+  [data-url-id="about-us"] [data-block-type="8"] .meta {
+    display:block !important;
+  }
+}
+@media(max-width: 480px){
+  [data-url-id="menu"]  .meta{
+    display:inline-block !important;
+  }
+
+
+  [data-url-id="about-us"] [data-block-type="8"] .sqs-gallery {
+    height: 350px !important;
+
+  }
+  [data-url-id="about-us"] [data-block-type="8"] .meta {
+    top: 70% !important;
+
+    width: 90%;
+    max-width: 100% !important;
+    left: 0 !important;
+    transform: translate(0, 0) !important;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-title{
+    color: #E53C2E;
+    display: inline-block;
+    font-family: "proxima-nova";
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 1em;
+    font-size: 1.4em;
+    font-weight: 700;
+
+  }
+  [data-url-id="about-us"] .meta .meta-inside .meta-description{
+  color: #E53C2E;
+	font-size: 0.85em;
+    padding-top: 0;
+    display: block;
+    padding: 0;
+    line-height: 1.1em;
+    font-family: "proxima-nova";
+    font-weight: 300;
+  }
+  [data-url-id="about-us"]  .meta .meta-inside .meta-description p{
+    color: #E53C2E !important;
+    font-size: 0.85em !important;
+  }
+
+  [data-url-id="about-us"] .meta .meta-inside .meta-description p span{
+    color: #E53C2E !important;
+    font-size: 0.85em !important;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 479px){
+  [data-url-id="about-us"] [data-block-type="8"] .thumb-image{
+    left: -85% !important;
+    transform: translate(32%, -15%) !important;
+
+
+  }
+}
+
+
+@media (min-width: 400px) and (max-width: 439px){
+  [data-url-id="about-us"]  [data-block-type="8"] .thumb-image{
+    left: -85% !important;
+    transform: translate(25%, -15%) !important;
+
+
+  }
+}
+
+
+@media (min-width: 380px) and (max-width: 399px){
+  [data-url-id="about-us"] [data-block-type="8"] .thumb-image{
+    left: -85% !important;
+    transform: translate(20%, -15%) !important;
+
+
+  }
+}
+@media (min-width: 350px) and (max-width: 379px){
+  [data-url-id="about-us"]  [data-block-type="8"] .thumb-image{
+    left: -85% !important;
+    transform: translate(15%, -15%) !important;
+
+
+  }
+}
+@media (min-width: 320px) and (max-width: 349px){
+  [data-url-id="about-us"] [data-block-type="8"] .thumb-image{
+    left: -85% !important;
+    transform: translate(6%, -15%) !important;
+
+
+  }
+}

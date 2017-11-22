@@ -1,0 +1,30 @@
+<html>
+<head>
+  <style>
+  .overlay{
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index: 10;
+    opacity: 0.5;
+  }
+  .overlay img{
+    width: 500px;
+    height: 500px;
+  }
+  .image{
+    z-index: 1;
+    position: relative;
+
+  }
+  </style>
+</head>
+<body>
+  <div class="image">
+    <img src="face.jpg" />
+    <div class="overlay">
+      <img src="overlay.gif" />
+    </div>
+  </div>
+</body>
+</html>

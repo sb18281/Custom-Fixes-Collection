@@ -1,0 +1,7 @@
+.sqs-block-content:hover ~ .image-overlay {
+  display: none;
+
+}
+.sqs-block-content:hover ~ .image-card {
+  display: none;
+}
